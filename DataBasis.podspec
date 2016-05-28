@@ -23,5 +23,7 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'CoreData'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'KSPFetchedResultsController'
+
 end
+

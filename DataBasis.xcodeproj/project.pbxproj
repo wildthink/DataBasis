@@ -14,6 +14,7 @@
 		96A378041CF0E42B00A72631 /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 96A378031CF0E42B00A72631 /* TestData.json */; };
 		96A378061CF0E60300A72631 /* StoreBasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A378051CF0E60300A72631 /* StoreBasis.swift */; };
 		96A378081CF22B3B00A72631 /* SimpleCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A378071CF22B3B00A72631 /* SimpleCoder.swift */; };
+		96A378551CF9BF5D00A72631 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 96A378541CF9BF5D00A72631 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		96A378031CF0E42B00A72631 /* TestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestData.json; sourceTree = "<group>"; };
 		96A378051CF0E60300A72631 /* StoreBasis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreBasis.swift; sourceTree = "<group>"; };
 		96A378071CF22B3B00A72631 /* SimpleCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCoder.swift; sourceTree = "<group>"; };
+		96A378541CF9BF5D00A72631 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		96A377E91CF0B7FD00A72631 /* DataBasis */ = {
 			isa = PBXGroup;
 			children = (
+				96A378541CF9BF5D00A72631 /* README.md */,
 				96A378011CF0B8CE00A72631 /* JSONAtomicStore.swift */,
 				96A377EA1CF0B7FD00A72631 /* DataBasis.h */,
 				96A377EC1CF0B7FD00A72631 /* Info.plist */,
@@ -209,6 +212,7 @@
 			files = (
 				96A378061CF0E60300A72631 /* StoreBasis.swift in Sources */,
 				96A378021CF0B8CE00A72631 /* JSONAtomicStore.swift in Sources */,
+				96A378551CF9BF5D00A72631 /* README.md in Sources */,
 				96A378081CF22B3B00A72631 /* SimpleCoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
